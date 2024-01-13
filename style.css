@@ -1,0 +1,29 @@
+body {border-style: solid;
+    border-width: 0px 15px 0px 0px;
+    -moz-border-image: url(Images/background.jpg) 27 repeat;
+    -webkit-border-image: url(Images/background.jpg) 27 repeat;
+    -o-border-image: url(Images/background.jpg) 27 repeat;
+    border-image: url(Images/background.jpg) 27 fill repeat;
+          /* background-image: url(Images/background.jpg);
+          background-size: 100% 140%;
+          background-repeat: no-repeat;
+        background-position: right center; */
+        }
+        .paddington{padding-top: 1% ;padding-bottom:2%}
+
+        .center{ background:rgba(116, 116, 116, 0.864); color:white;text-align: center; 
+            display:flex; flex-direction: column; align-items: center; width: 80%; margin-right: 200px;
+          margin-left: 200px;} 
+          
+#pic{
+    border-collapse: collapse;
+    border-color: #FFFFFF;
+    border-style: dashed;
+    border-width: 3px;
+    float: center;
+    padding: 2px 5px 0 1px;
+    vertical-align: top;
+}
+.imgContainer{
+    float:left;
+}
